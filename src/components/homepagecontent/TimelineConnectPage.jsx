@@ -197,6 +197,7 @@ const bookingData = {
     if(slotRes){
     const slotResult = await slotRes.json();
     dispatch(addTimelineData(bookingData));
+    getCallBookingData();
     setConfirmedData(bookingData);
         toast.success("Appointment Confirmed!");
         reset();
