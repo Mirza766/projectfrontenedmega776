@@ -72,7 +72,7 @@ else{
   } 
   const getSingleContactData = async () => {
     try {
-      const response = await fetch(`http://localhost:5000/api/admin/subscriptions/${params.id}`, {
+      const response = await fetch(`https://megaprojectmoviebookingapp-1.onrender.com/api/admin/subscriptions/${params.id}`, {
         method: 'GET',
         headers: { Authorization: AuthorizationToken },
       });

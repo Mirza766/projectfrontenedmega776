@@ -33,7 +33,7 @@ function AdminTickets() {
 
   const DeleteTicket = async (id) => {
    
-      const response = await fetch(`http://localhost:5000/api/admin/tickets/delete/${id}`, {
+      const response = await fetch(`https://megaprojectmoviebookingapp-1.onrender.com/api/admin/tickets/delete/${id}`, {
         method: 'DELETE',
         headers: { Authorization: AuthorizationToken },
       });

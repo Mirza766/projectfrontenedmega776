@@ -33,7 +33,7 @@ function AdminUsers() {
 
   const DeleteUser = async (id) => {
    
-      const response = await fetch(`http://localhost:5000/api/admin/users/delete/${id}`, {
+      const response = await fetch(`https://megaprojectmoviebookingapp-1.onrender.com/api/admin/users/delete/${id}`, {
         method: 'DELETE',
         headers: { Authorization: AuthorizationToken },
       });
