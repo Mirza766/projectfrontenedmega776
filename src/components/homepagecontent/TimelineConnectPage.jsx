@@ -185,7 +185,7 @@ const bookingData = {
   const res_data=await response.json();
 
     if (response.ok) {
-      const slotRes = await fetch(`http://localhost:5000/api/bookSlots/slotbooking`, {
+      const slotRes = await fetch(`https://megaprojectmoviebookingapp-1.onrender.com/api/bookSlots/slotbooking`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ SelectedSlot: data.SelectedSlot })
@@ -212,7 +212,7 @@ const bookingData = {
 
 const fetchDisabledSlots = async () => {
   try {
-    const response = await fetch(`http://localhost:5000/api/bookSlots/getbookedslot`, {
+    const response = await fetch(`https://megaprojectmoviebookingapp-1.onrender.com/api/bookSlots/getbookedslot`, {
       headers: { Authorization: AuthorizationToken }
     });
     const data = await response.json();
