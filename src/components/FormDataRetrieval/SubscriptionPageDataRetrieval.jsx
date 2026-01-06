@@ -115,11 +115,12 @@ const confirmSubscription=useCallback(async(id)=>{
     });
       const res_data = await response.json();
     if(response.ok){
+      toast.success("Subscription Subscribed Successfully");
       DeleteSubscription(matchedRecord.id);
       await SubscriptionData();
     }
     else {
-            toast(res_data.msg ? res_data.msg : "Email Already Exists");
+            toast.error(res_data.msg ? res_data.msg : "Email Already Exists");
           }
    console.log(response);
 }

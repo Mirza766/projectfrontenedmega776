@@ -9,6 +9,7 @@ import { useState } from 'react';
 import "../stylingSheets/ContactUsRetrieveData.css";
 import { ArrowRight, Delete, DeleteIcon, Edit } from 'lucide-react';
 import { useAuth} from '../../AuthContext/AuthContext';
+import { toast } from 'react-toastify';
 
 const ContactCard=React.memo(({user,onEdit,onDelete,onConfirm})=>{
 
@@ -78,8 +79,12 @@ const confirmContact=useCallback(async(id)=>{
       body:JSON.stringify(matchedRecord)
     });
     if(response.ok){
+      toast.success("Query Submitted SuccessFully")
       ClearData(matchedRecord.id);
       await ContactData();
+    }
+    else{
+      toast.error("Query Submission Denied")
     }
   
 }

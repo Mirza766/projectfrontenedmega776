@@ -19,6 +19,7 @@ import {
 import { useForm } from "react-hook-form";
 import "../stylingSheets/BookingPage.css";
 import { useAuth } from "../../AuthContext/AuthContext";
+import { toast } from "react-toastify";
 
 
 const BookingPage = () => {
@@ -85,7 +86,11 @@ try{
 
 console.log(response);
 if(response.ok){
+  toast.success("Booking Confirmed")
   await bookingData();
+}
+else{
+  toast.error("Bookig Denied")
 }
 
 
