@@ -1,0 +1,120 @@
+.cont-retrieve-data{
+   font-weight: 900;
+}
+
+.contact-retrieve-data-container{
+    padding: 10px;
+    width:100%;
+    border:4px solid purple;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    font-weight: 200;
+    background:#c7ebe9;
+    color:#162f72;
+    flex-basis: 30%;
+}
+
+.cont-retrieve-data-para{
+    margin: 0%;
+}
+
+.handling-form-card{
+        width: 100%;
+
+    max-width: 1440px;
+    margin:0px auto;
+}
+
+
+.retrieve{
+    background: white;
+    color:#162f72;
+    font-size: 16px;
+}
+
+.retrieve-btn-div{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contactus-retrieve{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    background: #162f72;
+    gap:2rem;
+ 
+}
+
+.heading-retrieve{
+    text-align: center;
+    color: #162f72;
+    font-size: 32px;
+     
+}
+
+.contactus-retrieve-master{
+    display: flex;
+    max-width: 1440px;
+    margin: auto 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+   padding:10px;
+   gap:1rem;
+justify-content: center;
+}
+.contactus-retrieve-master{
+width:90%
+}
+
+
+.cont-retrieve-masterclass{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.edit{
+    display: flex;
+    flex-direction: row;
+    gap:1rem
+}
+
+.editcontactusdatabtns{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}
+
+
+
+@media (max-width: 950px) {
+.contactus-retrieve-master {
+    width: 100%;
+}
+.contact-retrieve-data-container{
+    flex-basis: 40%;
+
+ }
+
+}
+
+@media (max-width: 580px) {
+.contact-retrieve-data-container{
+   flex-basis: 80%;
+ }
+ .heading-retrieve{
+    font-size: 28px;
+ }
+
+
+}

@@ -1,0 +1,104 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "saifmirza766@gmail.com",
+      "password": "Saifmirza@1803"
+    },
+    {
+      "id": 2,
+      "email": "john.doe@example.com",
+      "password": "JohnDoe@123"
+    },
+    {
+      "id": 3,
+      "email": "emma.watson@example.com",
+      "password": "EmmaWatson@321"
+    },
+    {
+      "id": 4,
+      "email": "alex.smith@example.com",
+      "password": "AlexSmith@456"
+    },
+    {
+      "id": 5,
+      "email": "lily.james@example.com",
+      "password": "LilyJames@789"
+    },
+    {
+      "id": 6,
+      "email": "michael.brown@example.com",
+      "password": "MichaelBrown@159"
+    },
+    {
+      "id": 7,
+      "email": "sophia.jones@example.com",
+      "password": "SophiaJones@753"
+    },
+    {
+      "id": 8,
+      "email": "david.clark@example.com",
+      "password": "DavidClark@852"
+    },
+    {
+      "id": 9,
+      "email": "olivia.taylor@example.com",
+      "password": "OliviaTaylor@951"
+    },
+    {
+      "id": 10,
+      "email": "daniel.lee@example.com",
+      "password": "DanielLee@147"
+    },
+    {
+      "id": 11,
+      "email": "mia.harris@example.com",
+      "password": "MiaHarris@258"
+    },
+    {
+      "id": 12,
+      "email": "ethan.moore@example.com",
+      "password": "EthanMoore@369"
+    },
+    {
+      "id": 13,
+      "email": "ava.martin@example.com",
+      "password": "AvaMartin@654"
+    },
+    {
+      "id": 14,
+      "email": "james.walker@example.com",
+      "password": "JamesWalker@987"
+    },
+    {
+      "id": 15,
+      "email": "isabella.king@example.com",
+      "password": "IsabellaKing@741"
+    },
+    {
+      "id": 16,
+      "email": "noah.wright@example.com",
+      "password": "NoahWright@852"
+    },
+    {
+      "id": 17,
+      "email": "grace.hall@example.com",
+      "password": "GraceHall@963"
+    },
+    {
+      "id": 18,
+      "email": "logan.green@example.com",
+      "password": "LoganGreen@159"
+    },
+    {
+      "id": 19,
+      "email": "harper.adams@example.com",
+      "password": "HarperAdams@357"
+    },
+    {
+      "id": 20,
+      "email": "lucas.baker@example.com",
+      "password": "LucasBaker@951"
+    }
+  ]
+}

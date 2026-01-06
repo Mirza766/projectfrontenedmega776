@@ -1,0 +1,50 @@
+.cartimgdata{
+    width: 70px;
+    height: px;
+    color: white;
+}
+.moviecart-img-cont{
+    display: flex;
+    width:90%;
+    flex-direction: col50umn;
+    justify-content: end;
+   
+    padding:5px;
+    position: relative;
+    border-radius: 100px;
+    background: green;
+
+}
+
+.bolding{
+  
+  position:absolute;
+  top:3px;
+  right: 2px;
+  height: 25px;
+  width: 23px;
+  font-size: 32px;
+
+  background: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+border:2px solid black;
+border-radius: 50%;
+font-size: larger;
+font-weight: 900;
+ background: #162f72;
+max-width: 1440px;
+margin: auto 0px;
+ color: orange;
+ z-index: 2;
+}
+
+.moviebook-cont{
+    max-width: 1440px;
+margin: auto 0px;
+    display: flex;
+    width: 100%;
+    padding-right: 40px;
+    justify-content: end;
+}

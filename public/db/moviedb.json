@@ -1,0 +1,236 @@
+{
+  "movie": [
+    {
+      "id": "MOV12345",
+      "title": "The Conjuring",
+      "release_year": 2013,
+      "genres": ["Horror", "Supernatural", "Thriller"],
+      "duration_minutes": 112,
+      "language": "English",
+      "age_rating": "R",
+      "price": 5.99,
+      "poster_url":"https://image.tmdb.org/t/p/w300/7JzOmJ1fIU43I3gLHYsY8UzNzjG.jpg"
+    },
+    {
+      "id": "MOV10001",
+      "title": "Galactic Wars: Rise of Orion",
+      "release_year": 2022,
+      "genres": ["Sci-Fi", "Action", "Adventure"],
+      "duration_minutes": 140,
+      "language": "English",
+      "age_rating": "PG-13",
+      "price": 9.99,
+      "poster_url":"https://image.tmdb.org/t/p/w300/nv1sdEx7DBjguoEovgiOyuSpSxh.jpg"
+    },
+    {
+      "id": "MOV10002",
+      "title": "Frozen Melody",
+      "release_year": 2021,
+      "genres": ["Animation", "Fantasy", "Family"],
+      "duration_minutes": 95,
+      "language": "English",
+      "age_rating": "G",
+      "price": 4.49,
+      "poster_url":"https://image.tmdb.org/t/p/w300/itAKcobTYGpYT8Phwjd8c9hleTo.jpg"
+    },
+    {
+      "id": "MOV10003",
+      "title": "Love in Paris",
+      "release_year": 2019,
+      "genres": ["Romance", "Drama"],
+      "duration_minutes": 108,
+      "language": "French",
+      "age_rating": "PG-13",
+      "price": 6.99,
+      "poster_url":"https://image.tmdb.org/t/p/w300/zYIVygrrdD9lqmXdjuoyehnF1ae.jpg"
+    },
+    {
+      "id": "MOV10004",
+      "title": "The Last Samurai Blade",
+      "release_year": 2018,
+      "genres": ["Action", "Historical", "Drama"],
+      "duration_minutes": 152,
+      "language": "Japanese",
+      "age_rating": "R",
+      "price": 7.49,
+       "poster_url":"https://image.tmdb.org/t/p/w300/a8jmJPs5eZBARmnuEEvZwbjwyz4.jpg"
+    },
+    {
+      "id": "MOV10005",
+      "title": "Punchline Nights",
+      "release_year": 2020,
+      "genres": ["Comedy"],
+      "duration_minutes": 102,
+      "language": "English",
+      "age_rating": "PG",
+      "price": 3.99,
+       "poster_url":"https://image.tmdb.org/t/p/w300/dgbLnnEJIGldXOMt6OWy3X1l0AC.jpg"
+    },
+    {
+      "id": "MOV10006",
+      "title": "Whispers in the Dark",
+      "release_year": 2017,
+      "genres": ["Horror", "Mystery"],
+      "duration_minutes": 104,
+      "language": "English",
+      "age_rating": "R",
+      "price": 5.49,
+       "poster_url":"https://image.tmdb.org/t/p/w300/c7n1fZuUMeEVspvzOrIUCz4XdCe.jpg"
+    },
+    {
+      "id": "MOV10007",
+      "title": "Race to Glory",
+      "release_year": 2023,
+      "genres": ["Sports", "Drama"],
+      "duration_minutes": 129,
+      "language": "English",
+      "age_rating": "PG-13",
+      "price": 8.25,
+       "poster_url":"https://image.tmdb.org/t/p/w300/1D3y4by7gJ9X2eowG8NpBt0cPIj.jpg"
+    },
+    {
+      "id": "MOV10008",
+      "title": "Mind Hackers",
+      "release_year": 2022,
+      "genres": ["Thriller", "Sci-Fi"],
+      "duration_minutes": 118,
+      "language": "English",
+      "age_rating": "R",
+      "price": 7.99,
+       "poster_url":"https://image.tmdb.org/t/p/w300/qNeV8JtTdsfQCtYcwNCf33hldg8.jpg"
+    },
+    {
+      "id": "MOV10009",
+      "title": "The Lost Kingdom",
+      "release_year": 2016,
+      "genres": ["Fantasy", "Adventure"],
+      "duration_minutes": 134,
+      "language": "English",
+      "age_rating": "PG-13",
+      "price": 6.75,
+        "poster_url":"https://image.tmdb.org/t/p/w300/7lTnXOy0iNtBAdRP3TZvaKJ77F6.jpg"
+    },
+    {
+      "id": "MOV10010",
+      "title": "Echoes of Justice",
+      "release_year": 2020,
+      "genres": ["Crime", "Drama", "Mystery"],
+      "duration_minutes": 126,
+      "language": "English",
+      "age_rating": "R",
+      "price": 6.49,
+       "poster_url":"https://image.tmdb.org/t/p/w300/5aH4DGD9FIwLYhJwbTr7LwaRCSi.jpg"
+
+    },
+    {
+      "id": "MOV10011",
+      "title": "Cyber City 2099",
+      "release_year": 2024,
+      "genres": ["Sci-Fi", "Action"],
+      "duration_minutes": 132,
+      "language": "English",
+      "age_rating": "PG-13",
+      "price": 8.99,
+       "poster_url":"https://image.tmdb.org/t/p/w300/2mNmqEDz1mm93C8XjhqyzmuiNP2.jpg"
+    },
+    {
+      "id": "MOV10012",
+      "title": "Tears of the Desert",
+      "release_year": 2015,
+      "genres": ["Drama", "War"],
+      "duration_minutes": 142,
+      "language": "Arabic",
+      "age_rating": "R",
+      "price": 6.49,
+       "poster_url":"https://image.tmdb.org/t/p/w300/jCTito7JwPwKMcsAJpn05NzOkuo.jpg"
+    },
+    {
+      "id": "MOV10013",
+      "title": "Midnight Circus",
+      "release_year": 2018,
+      "genres": ["Horror", "Fantasy"],
+      "duration_minutes": 110,
+      "language": "English",
+      "age_rating": "R",
+      "price": 5.75,
+       "poster_url":"https://image.tmdb.org/t/p/w300/unnGwqWmMAuszJnleyuqZ70MtrT.jpg"
+    },
+    {
+      "id": "MOV10014",
+      "title": "Fast Lane Legacy",
+      "release_year": 2023,
+      "genres": ["Action", "Racing"],
+      "duration_minutes": 125,
+      "language": "English",
+      "age_rating": "PG-13",
+      "price": 8.99,
+       "poster_url":"https://image.tmdb.org/t/p/w300/pk2S1wfkvD4HQp2DkGIQGdaw6Ra.jpg"
+    },
+    {
+      "id": "MOV10015",
+      "title": "Chef of Dreams",
+      "release_year": 2020,
+      "genres": ["Comedy", "Family"],
+      "duration_minutes": 99,
+      "language": "English",
+      "age_rating": "PG",
+      "price": 4.25,
+       "poster_url":"https://image.tmdb.org/t/p/w300/amffI3ElNujOxhBN5b1vKVJLCE0.jpg"
+    },
+    {
+      "id": "MOV10016",
+      "title": "The Forgotten Planet",
+      "release_year": 2014,
+      "genres": ["Sci-Fi", "Mystery"],
+      "duration_minutes": 128,
+      "language": "English",
+      "age_rating": "PG-13",
+      "price": 7.49,
+       "poster_url":"https://image.tmdb.org/t/p/w300/69nVNecBEallJ85GgLF9sXHWiyy.jpg"
+    },
+    {
+      "id": "MOV10017",
+      "title": "Golden Strings",
+      "release_year": 2019,
+      "genres": ["Music", "Drama"],
+      "duration_minutes": 115,
+      "language": "English",
+      "age_rating": "PG",
+      "price": 6.25,
+       "poster_url":"https://image.tmdb.org/t/p/w300/uq39CwuuqfJuX0Sk8BTPgqgVUGo.jpg"
+    },
+    {
+      "id": "MOV10018",
+      "title": "Legend of the Snow Wolf",
+      "release_year": 2017,
+      "genres": ["Adventure", "Fantasy"],
+      "duration_minutes": 121,
+      "language": "English",
+      "age_rating": "PG-13",
+      "price": 6.99,
+       "poster_url":"https://image.tmdb.org/t/p/w300/lTLwLVX1jmNzDg1ZC88eaIt3XR8.jpg"
+    },
+    {
+      "id": "MOV10019",
+      "title": "Silent Heist",
+      "release_year": 2021,
+      "genres": ["Crime", "Thriller"],
+      "duration_minutes": 113,
+      "language": "English",
+      "age_rating": "R",
+      "price": 7.89,
+       "poster_url":"https://image.tmdb.org/t/p/w300/z9O7ZAfWqaW5qNISqUhPkwEYhMI.jpg"
+    },
+    {
+      "id": "MOV10020",
+      "title": "Pixel Heroes",
+      "release_year": 2022,
+      "genres": ["Animation", "Adventure", "Comedy"],
+      "duration_minutes": 101,
+      "language": "English",
+      "age_rating": "G",
+      "price": 4.99,
+       "poster_url":"https://image.tmdb.org/t/p/w300/yFdNdJtB7MDtEcx3HA9IkK1741n.jpg"
+    }
+  ]
+}

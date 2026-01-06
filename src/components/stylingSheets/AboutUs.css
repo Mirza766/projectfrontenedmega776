@@ -1,0 +1,41 @@
+.aboutus-main{
+/* margin-top: -20px; */
+background-image: url('/images/BGAboutUS.jpg');
+background-position: center;
+background-size: cover;
+padding:30px;
+margin-bottom: -40px;
+display: flex;
+justify-content: center;
+}
+
+
+.about-us-master{
+ width:80%;
+ max-width: 1440px;
+ margin: 0 auto;
+}
+.aboutus-head{
+color: #162f72;
+font-size: 32px;
+}
+.aboutus-para-content{
+color: #162f72;
+font-weight: 400;
+font-size: 16px;
+}
+
+@media (max-width:767px){
+    .about-us-master{
+        width: 90%;
+
+    }
+    .aboutus-head{
+        font-size: 25px;
+    }
+    .aboutus-para-content{
+       font-size: 14px;
+    }
+   
+
+}

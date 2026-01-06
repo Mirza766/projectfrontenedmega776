@@ -1,0 +1,169 @@
+.seat-grid {
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(10, 40px);
+  gap: 5px;
+  justify-content: center;
+}
+
+.renderSeatHead{
+    text-align: center;
+    color: #eee;
+}
+
+
+.seat {
+    font-size: 16px;
+  padding: 4px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.seat:hover{
+background-color: rgba(255, 255, 255, 0.05);
+backdrop-filter: blur(4px);
+color:white
+}
+
+.seat.booked {
+  background-color: red;
+  cursor: not-allowed;
+}
+
+.seat.selected {
+  background-color: green;
+}
+
+
+.booking-container{
+    /* display:flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    padding-top:40px ;
+    background: #162f72;
+    padding-bottom: 100px; */
+ 
+}
+
+.booking-form-container{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    margin: auto 0px;
+    max-width: 1440px;
+    background: white;
+     border: 4px solid purple;
+      padding:20px;
+        border-radius: 10px;
+    
+}
+.form-grid{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.master-head-booking{
+    font-size: 32px;
+    padding-bottom: 20px;
+    color: #eee;
+}
+.booking-form-master{
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+}
+
+.bookinglabel{
+       font-size: 25px;
+    font-weight: 700;
+
+}
+
+.bookingInput{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border:2px solid grey
+}
+
+.confirm-btn{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 16px 10px 16px;
+    border: 2px solid black;
+    border-radius: 6px;
+    color:white;
+    background: #162f72;
+    cursor: pointer;
+}
+
+.confirm-btn:hover{
+    color:#162f72;
+    background:grey;
+
+}
+.renderSeatHead{
+    font-size: 25px;
+    color: #162f72;
+
+}
+
+.renderSeatPara{
+    color: #162f72;
+}
+
+@media (max-width:950px){
+  .booking-form-container{
+    width:70%;
+  }  
+
+}
+
+@media (max-width:667px){
+ .booking-form-container{
+    width:80%;
+  }  
+
+}
+
+@media (max-width:570px){
+ .booking-form-container{
+    width:85%;
+  }  
+  .seat-grid{
+        grid-template-columns: repeat(10, 35px);
+    gap: 5px;
+  }
+  .seat{
+    font-size: 12px;
+  }
+  
+}
+
+@media (max-width:398px){
+.seat-grid {
+        grid-template-columns: repeat(10, 26px);
+}
+.bookinglabel{
+  font-size: 17px;
+}
+.bookingInput {
+    padding: 4px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+.master-head-booking{
+  font-size: 25px;
+}
+    .booking-form-container {
+        width: 80%;
+    }
+}

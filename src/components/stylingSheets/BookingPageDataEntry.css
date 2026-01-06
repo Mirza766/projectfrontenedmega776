@@ -1,0 +1,64 @@
+.subscDataCont{
+   padding-top: 70px;
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items: center;
+}
+.subscMasterCont{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    
+
+}
+.subsc-formdata{
+    display: flex;
+    flex-direction: column;
+    gap:2px
+}
+.subsc-sub-button{
+    margin-top: 20px;
+}
+
+.subscformTotal{
+    border: 2px solid purple;
+    padding:20px;
+    width:50%;
+   border-radius: 20px;
+   background: #eee
+}
+
+.subsc-head{
+    font-weight: 600;
+     
+}
+
+.subsc-input{
+    padding: 10px;
+    border-radius: 6px;
+   
+}
+
+.subsc-sub-button{
+  font-size: 18px;
+  padding: 10px 25px 10px 25px;
+  border-radius: 6px;
+  background:#162f72;
+  color: #eee;
+  cursor: pointer;
+}
+.subsc-sub-button:hover{
+background: #344b88;
+}
+
+.subsc-form-div{
+  align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.subscparacont{
+    color:#162f72
+}

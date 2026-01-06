@@ -1,0 +1,149 @@
+.signUp-total{
+    display: flex;
+    flex-direction: column;
+   width:50%;
+   border: 2px solid purple;
+   border-radius: 16px;
+   margin-top:26px;
+   margin-bottom:26px;
+     max-width: 1440px;
+   margin: auto 0px;
+}
+
+.signUp-master{
+    padding-top: 29px;
+    padding-bottom: 30px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-heading{
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: #162f72;
+    font-weight: 900;
+
+}
+
+.pref-head{
+color: #162f72;
+font-size: 18px;
+font-weight: 700;
+}
+
+.date-picker-div{
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+}
+.date-error{
+    margin-top: 0px;
+    font-size: 13px;
+    color: rgb(197, 7, 7);
+}
+
+.signUpButtons{
+        display: flex;
+      gap: 1rem;
+      /* margin-top: 22px; */
+      padding:10px;
+     
+}
+
+.date-input{
+padding: 10px;
+border-radius:5px;
+margin-top: 13px;
+width:100%;
+opacity: 50%;
+font-size: 18px;
+border:1px solid grey;
+}
+
+
+.date-error{
+    color:red;
+}
+
+.detail-container{
+    padding: 2rem;
+  
+   
+}
+
+
+.detail-head{
+    color: #162f72;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.verif-heading{
+color: #162f72;
+font-size: 18px;
+font-weight: 500;
+}
+
+.Verification-container{
+   padding: 20px;
+  
+}
+
+.signUp-master{
+   margin-top: 5rem;
+
+}
+.signUp-total{
+    background: white;
+}
+
+
+
+.signUpPreference{
+      padding: 20px;
+  
+}
+
+.pref-head{
+color: #162f72;
+font-size: 18px;
+font-weight: 500;
+}
+
+.signup-btn-div{
+    display: flex;
+    flex-direction: column;
+    gap:1px
+}
+
+.signup-btn-para{
+  color: #162f72;
+  text-align: center;
+  font-size: 14px;  
+}
+
+
+@media (max-width:900px){
+    .signUp-total{
+        width: 80%;
+    }
+
+   
+}
+@media (max-width:676px){
+    .signUp-total{
+        width: 90%;
+    }
+}
+@media (max-width:500px){
+    .signUp-total{
+        width: 90%;
+    }
+}
+
+

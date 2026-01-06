@@ -1,0 +1,51 @@
+.login-master-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background:#162f72;
+    
+}
+
+.login-cont{
+     margin:40px ;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+    padding-top:0px ;
+   background: white;
+   border: 2px solid purple;
+   border-radius: 16px;
+}
+
+.Login-heading{
+    text-align: center;
+    font-size: 32px;
+    color:#162f72
+}
+
+@media (max-width:900px){
+    .login-cont{
+        width: 70%;
+    }
+
+   
+}
+
+@media (max-width:500px){
+ 
+    .login-cont{
+        width: 80%;
+    }
+}
+
+
+@media (max-width:450px){
+    .login-cont{
+        width: 90%;
+    }
+    .signup-heading{
+        font-size: 18px;
+    }
+     
+}
