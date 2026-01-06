@@ -37,7 +37,7 @@ import Logout from './components/Logout/logout';
 import GetOrderConfirmedData from './components/MovieStore/GetOrderConfirmedData';
 import CallBookingData from './components/FormDataRetrieval/CallBookingData';
 import ContactUsDatabase from './components/FormDataRetrieval/ContactUsDatabase';
-// import GetSubscriptionDatabase from './components/FormDataRetrieval/getSubscriptionDatabase';
+import GetSubscriptionDatabase from './components/FormDataRetrieval/getSubscriptionDatabase';
 import 'react-toastify/dist/ReactToastify.css';
 import Error404 from './components/homepagecontent/Error404';
 import AdminLayout from './components/layouts/AdminLayout';
@@ -93,7 +93,7 @@ const queryclient=new QueryClient();
   <Route path='/getorderconfirm' element={<GetOrderConfirmedData/>}/>
   <Route path='/getcallbooking' element={<CallBookingData/>}/> 
   <Route path='/contactDatabase' element={<ContactUsDatabase/>}/>
-   {/* <Route path='/getSubsc' element={<GetSubscriptionDatabase/>}/> */}
+   <Route path='/getSubsc' element={<GetSubscriptionDatabase/>}/>
    <Route path='*' element={<Error404/>}/>
    <Route path='/admin' element={<AdminLayout/>}>
    <Route path='users' element={<AdminUsers/>}/>
